@@ -1,56 +1,38 @@
 @extends('layouts.app')
 
 @section('content')
-   <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    dddd
-                </h1>
-                <a 
-                    href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
-                    Read More
-                </a>
-            </div>
-        </div>
+
+<div class="w-4/5 m-auto text-center">
+    <div class="py-15 border-b border-gray-200">
+        <h1 class="text-6xl">
+            Blog Posts
+        </h1>
     </div>
+</div>
 
 
-    <div class="text-center py-15">
-        <span class="uppercase text-s text-gray-400">
-            Blog
-        </span>
-
-        <h2 class="text-4xl font-bold py-10">
-            Recent Posts
-        </h2>
-
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
-    </div>
-
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
-
-                <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
-
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
-            </div>
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+        <div>
+            <img src="" alt="">
         </div>
         <div>
-            <img src="https://pixabay.com/photos/rose-frost-frozen-hoarfrost-cold-7601741" alt="vbv">
+            <h2 class="text-gray-700 font-bold text-5xl pb-4">
+                
+            </h2>
+            <span class="text-gray-500">
+                By <span class="font-bold italic text-gray-800"></span>, Created on 
+            </span>
+
+            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+               
+            </p>
+
+            <a href="" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+                Keep Reading
+            </a>
+
+
         </div>
-    </div>
+    </div>  
+
 @endsection
